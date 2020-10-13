@@ -4,7 +4,7 @@
   padding: 16px 16px;
 }
 
-button {
+.app-header button {
   width: 128px;
   height: 32px;
   margin: auto 0;

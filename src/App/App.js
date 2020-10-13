@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from '../components/Header/Header';
 import Group from '../components/Group/Group';
+import Trainee from '../components/Trainee/Trainee';
 import './App.scss';
 
 class App extends Component {
@@ -9,6 +10,7 @@ class App extends Component {
       <div data-testid="app" className="App">
         <Header />
         <Group />
+        <Trainee />
       </div>
     );
   }

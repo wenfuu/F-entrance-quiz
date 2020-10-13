@@ -1,0 +1,11 @@
+.trainee-list {
+  display: flex;
+  margin-left: 16px;
+  align-items: center;
+}
+
+.trainee button {
+  background-color: transparent;
+  color: black;
+  border: 1px dashed;
+}

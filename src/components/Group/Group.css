@@ -2,7 +2,7 @@
   border: 1px solid black;
 }
 
-section {
+.group section {
   width: 100%;
   height: 32px;
   background-color: #929aab;
