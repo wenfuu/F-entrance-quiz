@@ -1,0 +1,14 @@
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 16px;
+}
+
+button {
+  width: 128px;
+  height: 32px;
+  margin: auto 0;
+  background-color: #ea5455;
+  color: #ffffff;
+  border: none;
+}
