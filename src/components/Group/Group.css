@@ -2,6 +2,7 @@
   border: 1px solid black;
 }
 
+/*// TODO feedback: 不建议使用太多嵌套的标签选择器*/
 .group section {
   width: 100%;
   height: 32px;

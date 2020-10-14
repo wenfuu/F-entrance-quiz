@@ -8,6 +8,8 @@ import './App.scss';
 class App extends Component {
   constructor(props) {
     super(props);
+    // TODO feedback: trainees 是数组，建议初始值为[]
+    // TODO feedback: trainees state的定义更适合维护在Trainee组件中
     this.state = { trainees: null };
   }
 
@@ -20,6 +22,7 @@ class App extends Component {
     return (
       <div data-testid="app" className="App">
         <Header />
+        {/* // TODO feedback: 命名成GroupList和TraineeList更合适，因为是列表 */}
         <Group />
         <Trainee trainess={this.state.trainees} />
       </div>

@@ -7,5 +7,6 @@
 .trainee button {
   background-color: transparent;
   color: black;
+  /*// TODO feedback:没有用dashed样式*/
   border: 1px dashed;
 }
